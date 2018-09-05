@@ -1,8 +1,7 @@
-# Dribo Flutter Client
+# Dribo Flutter Client (Beta)
+<img src = "/resources/logo.png" />
 
-<center>![logo](resources/logo.png)</center>
-<p  align = "center">
-  A Dribbble Client which using FLutter framework
-</p>
+### A Dribbble Client which using Flutter framework
+
 
 
