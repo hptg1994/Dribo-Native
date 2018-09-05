@@ -1,3 +1,4 @@
+import 'package:dribo/pages/HomePage/HomePage.dart';
 import 'package:dribo/pages/OAuthPage/OAuthPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
@@ -11,10 +12,11 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Flutter Demo',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
       ),
       routes: {
-        "/":(_) => OAuthPage(),
+//        "/":(_) => OAuthPage(),
+        "/":(_) => HomePage(),
       },
     );
   }
