@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
-class itemCard extends StatelessWidget {
+class ItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      elevation: 5.0,
       child: Column(
         children: <Widget>[
           Container(

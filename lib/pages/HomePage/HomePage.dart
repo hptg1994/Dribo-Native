@@ -5,10 +5,29 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView.builder(
-        itemBuilder: (BuildContext context, int index) => itemCard(),
-        itemCount: 20,
-      ),
+      body: GridView.count(
+          crossAxisCount:2,
+          mainAxisSpacing: 1.0,
+          crossAxisSpacing: 0.2,
+          /*children: <Widget>[
+            itemCard(),
+            itemCard(),
+            itemCard(),
+            itemCard(),
+            itemCard(),
+            itemCard(),
+            itemCard(),
+            itemCard(),
+            itemCard(),
+          ],*/
+          children: List.generate(100, (int index){
+            return Container (
+              child: ItemCard(),
+            );
+          }),
+
+      )
+
     );
   }
 }
