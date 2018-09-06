@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
         if(pathElements[1] == "home"){
           final int index = int.parse(pathElements[2]);
           return MaterialPageRoute(
-            builder: (BuildContext context) => ItemDetailPage()
+            builder: (BuildContext context) => ItemDetailPage(index)
           );
         }
       },
