@@ -1,3 +1,4 @@
+import 'package:dribo/utility/buttons/FloatingButtons.dart';
 import 'package:flutter/material.dart';
 
 class ItemDetailPage extends StatelessWidget {
@@ -5,12 +6,15 @@ class ItemDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:Text("Product")
+        elevation: 0.3,
+        title: Text("Product"),
+        backgroundColor: Colors.white,
+        brightness: Brightness.light,
       ),
       body: new Container(
-
+        
       ),
+      floatingActionButton: FloatingButtons(),
     );
   }
-
 }
