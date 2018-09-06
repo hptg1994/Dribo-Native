@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
           ],*/
           children: List.generate(100, (int index){
             return Container (
-              child: ItemCard(),
+              child: ItemCard(index),
             );
           }),
 
