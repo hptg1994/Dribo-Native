@@ -4,4 +4,4 @@
 ### A Dribbble Client which using Flutter framework
 
 ### Take a look at the screenshot first
-<img src = "/resources/screenshot.png" />
+<img src = "/resources/screenshot.png" width = "100px" />
