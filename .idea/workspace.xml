@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f69c0a-39f6-43c8-a2f2-cc708832ac17" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/utility/buttons/FloatingButtons.dart" afterPath="$PROJECT_DIR$/lib/utility/buttons/FloatingButtons.dart" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
@@ -31,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/lib/utility/buttons/FloatingButtons.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="86" column="72" lean-forward="false" selection-start-line="86" selection-start-column="72" selection-end-line="86" selection-end-column="72" />
+              <caret line="86" column="73" lean-forward="false" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -419,7 +420,7 @@
     <entry file="file://$PROJECT_DIR$/lib/utility/buttons/FloatingButtons.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="86" column="72" lean-forward="false" selection-start-line="86" selection-start-column="72" selection-end-line="86" selection-end-column="72" />
+          <caret line="86" column="73" lean-forward="false" selection-start-line="86" selection-start-column="73" selection-end-line="86" selection-end-column="73" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

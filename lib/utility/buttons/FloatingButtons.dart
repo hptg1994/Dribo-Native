@@ -84,7 +84,7 @@ class _FloatingButtons extends State<FloatingButtons>
                 builder: (BuildContext context, Widget child) {
                   return Transform(
                     alignment: FractionalOffset.center,
-                    transform: Matrix4.rotationZ(_controller.value *0.5 * math.pi),
+                    transform: Matrix4.rotationZ(_controller.value *0.5  * math.pi),
                     child: Icon(_controller.isDismissed?Icons.more_horiz:Icons.close,color: Colors.white),
                   );
                 })
