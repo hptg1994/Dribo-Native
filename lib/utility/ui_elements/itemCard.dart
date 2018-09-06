@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 
 class ItemCard extends StatelessWidget {
-  Image _getImage() {}
 
-  Widget _buildItemInfo() {
+  int selectItemCard;
+
+  ItemCard(this.selectItemCard);
+
+  Widget _buildItemInfo(BuildContext context) {
     return Container(
         padding: EdgeInsets.symmetric(vertical: 2.0, horizontal: 3.0),
           child: Row(
@@ -17,6 +20,7 @@ class ItemCard extends StatelessWidget {
               new IconButton(
                 icon: Icon(Icons.comment),
                 color: Colors.grey,
+                onPressed: () => Navigator.pushNamed(context, "/home/"+selectItemCard.toString()),
               )
             ],
           ),
@@ -33,7 +37,7 @@ class ItemCard extends StatelessWidget {
         children: <Widget>[
           new Expanded(child: new Align(
             alignment: Alignment.bottomCenter,
-            child: _buildItemInfo(),
+            child: _buildItemInfo(context),
           )),
         ],
       ),
